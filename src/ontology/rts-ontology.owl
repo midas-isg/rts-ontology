@@ -16,6 +16,7 @@
         <owl:versionIRI rdf:resource="http://www.referent-tracking.com/rts-owl/1.0"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <www:RTS_00000001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3EB5C398-D201-472E-9831-E699D35DD4EC</www:RTS_00000001>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">v1.0</owl:versionInfo>
         <rdfs:comment xml:lang="en">This OWL file contains elements that are used for implementing a referent tracking system.
 
 In particular, its first use case is the creation of annotation properties to annotate OWL ontologies with their IUI.  Note that although the OWL community might think it redundant to attach an IUI to an ontology (i.e., the annotated IUIs are redundant to the ontology IRI and ontology version IRIs), we still need a more uniform system of IUIs that works across different representational formalisms.</rdfs:comment>
